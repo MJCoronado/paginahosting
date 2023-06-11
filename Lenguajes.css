@@ -1,0 +1,215 @@
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+  }
+  
+  .contenedor{
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+  }
+  
+  header{
+    width: 100%;
+    height: 200px;
+    background-color: #A8CEF3;
+  }
+
+  h2{
+    color: #1765C9;
+  }
+
+  h3{
+    color: #FF8700;
+  }
+
+  b{
+    color: #00366C;
+  }
+
+  .logo{
+    padding: 25px 0;
+  }
+  
+  .logo img{
+    width: 100px;
+    display: block;
+    margin: auto;
+  }
+  
+  .menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 430px;
+    margin: auto;
+  }
+  
+  .menu a{
+    text-decoration: none;
+    color: #0D4881;
+    font-size: 14px;
+  }
+  
+  .menu a:hover{
+    color:#2D8AE5;
+  }
+  
+  .banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/BannerLeng2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .banner > div{
+    width: 100%;
+    height: 100%;
+    background-color: #0608014F;
+  }
+  
+  .llamada-accion{
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .llamada-accion p{
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .llamada-accion h2{
+    font-size: 42px;
+    color: white;
+    width: 100%;
+    padding: 45px 0;
+    background-color: #FFFFFF66;
+    max-width: 470px;
+  }
+  
+
+  .seccion{
+    padding-bottom: 80px;
+  }
+  
+  .seccion > .contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+  @media all and (min-width:769px){
+    .seccion{
+      padding-top: 80px;
+    } 
+  }
+
+  .container-cafe{
+    margin-top:50px;
+    padding:100px;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px,293px));
+    justify-content: center;
+    align-content:center;
+    justify-items: center;
+    align-items:center;
+    grid-gap: 28px;
+    margin-bottom:100px;
+    background-color:whitesmoke;
+  }
+  
+  /* Cajas de los  tipos de cafe */
+  #cajas {
+    width:400px;
+    height:auto;
+  }
+  
+  /* imagenes de los cafes */
+  .fotoimagen {
+    width:200px;
+    height:200px;
+  }
+  
+  
+  .cajas div{
+    font-family: Franklin Gothic;
+    font-size: 20px;
+    background-color: #1E90FF;
+    color:white;
+    text-align: center;
+  }
+  
+  .cajas {
+    background-color:#DCDCDC;
+  }
+  
+  .cajas:hover {
+    background-color: #FFFF00;
+  }
+
+  /*PIE DE PÁGINA*/
+  .top-footer{
+    background-color:#3FA0FF;
+    height:25px;
+  }
+  
+  .center-footer{
+    background-color: #1E90FF;
+  }
+  
+  .center-footer .contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .center-footer .widget{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    color:#F0F8FF;
+  
+    max-width: 270px;
+    margin: 0 auto;
+  }
+  
+  .center-footer .widget h3{
+    padding-bottom: 35px;
+    font-size: 18px;
+    color: #F0F8FF;
+  }
+  
+  .center-footer .widget p{
+    font-size: 14px;
+  }
+  
+  .bottom-footer{
+    background-color:#0066C9;
+    height:25px;
+  }
+  
+  .bottom-footer p{
+    color:#F0F8FF;
+    font-size: 12px;
+    text-align: center;
+  }

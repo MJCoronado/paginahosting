@@ -1,0 +1,293 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+}
+
+.contenedor{
+  width: 100%;
+  max-width: 1170px;
+  margin: auto;
+}
+
+.contenedor > h3{
+  text-align: center;
+  color: #8E18B8;
+}
+
+.contenedor > h4, b, u{
+  color: #8E18B8;
+}
+
+header{
+  width: 100%;
+  height: 200px;
+  background-color: #DDC1DF;
+}
+
+.logo{
+  padding: 25px 0;
+}
+
+.logo img{
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 430px;
+  margin: auto;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #682496;
+  font-size: 14px;
+  
+}
+
+.menu a:hover{
+  color:#B56EE4;
+}
+
+
+.banner{
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/BannerInicio.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.banner > div{
+  width: 100%;
+  height: 100%;
+  background-color: #0608014F;
+}
+
+.llamada-accion{
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+}
+
+.llamada-accion p{
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.llamada-accion h2{
+  font-size: 42px;
+  color: white;
+  width: 100%;
+  padding: 45px 0;
+  background-color: #FFFFFF66;
+  max-width: 470px;
+}
+
+.llamada-accion a:hover{
+  background-color: #000000CC;
+}
+
+.seccion{
+  padding-bottom: 80px;
+}
+
+.seccion > .contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.foto2{
+  width: 100%;
+  max-width: 570px;
+}
+
+.foto2 img{
+  width: 100%;
+}
+
+.info{
+  text-align: center;
+  padding: 15px 0px;
+  max-width: 570px;
+}
+
+.info p:nth-child(1){
+  font-size: 14px;
+  color:#2C006C;
+  padding-bottom: 20px;
+  border-bottom:1px solid #A2A2A2;
+}
+
+.info h3{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #8929B9;
+  font-size: 18px;
+}
+
+.info p:nth-child(3){
+  font-size: 14px;
+  color:#88848E;
+  padding-bottom: 25px;
+}
+
+.info p:nth-child(4){
+  font-size: 14px;
+  color:#88848E;
+  padding-bottom: 20px;
+}
+
+.info a{
+  font-size: 15px;
+  color: #BA4FEF;
+}
+
+@media all and (min-width:769px){
+  .seccion{
+    padding-top: 80px;
+  }
+  .foto2{
+    margin-right: 30px;
+  }
+  .info{
+    padding-left: 30px;
+    text-align: left;
+  }
+}
+
+ .adm{
+  padding-bottom: 80px;
+}
+
+.adm > .contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+
+.foto1{
+  width: 100%;
+  max-width: 570px;
+}
+
+.foto1 img{
+  width: 100%;
+}
+
+.conoceme{
+  text-align: center;
+  padding: 15px 0px;
+  max-width: 570px;
+}
+
+.conoceme p:nth-child(1){
+  font-size: 14px;
+  color:#3c1c22;
+  padding-bottom: 20px;
+  border-bottom:1px solid #A2A2A2;
+}
+
+.conoceme h3{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #8929B9;;
+  font-size: 18px;
+}
+
+.conoceme p:nth-child(3){
+  font-size: 14px;
+  color:#88848E;
+  padding-bottom: 25px;
+}
+
+.conoceme p:nth-child(4){
+  font-size: 14px;
+  color:#88848E;
+  padding-bottom: 20px;
+}
+
+.conoceme a{
+  font-size: 15px;
+  color: #BA4FEF;
+}
+
+@media all and (min-width:769px){
+  .adm{
+    padding-top: 80px;
+  }
+  .foto1{
+    margin-right: 30px;
+  }
+  .conoceme{
+    padding-left: 30px;
+    text-align: left;
+  }
+} 
+
+
+.top-footer{
+  background-color:#943AC2;
+  height:25px;
+}
+
+.center-footer{
+  background-color: #8929B9;
+}
+
+.center-footer .contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.center-footer .widget{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  color:#F8F8FF;
+
+  max-width: 270px;
+  margin: 0 auto;
+}
+
+.center-footer .widget h3{
+  padding-bottom: 35px;
+  font-size: 18px;
+}
+
+.center-footer .widget p{
+  font-size: 14px;
+}
+
+.bottom-footer{
+  background-color:#681E8D;
+  height:25px;
+}
+
+.bottom-footer p{
+  color:#F8F8FF;
+  font-size: 12px;
+  text-align: center;
+}

@@ -1,0 +1,200 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+  
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+  
+.contenedor{
+  width: 100%;
+  max-width: 1170px;
+  margin: auto;
+}
+ 
+.banner{
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/BannerVerde.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.banner > div{
+  width: 100%;
+  height: 100%;
+  background-color: #0608014F;
+}
+
+.llamada-accion{
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.llamada-accion p{
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.llamada-accion h2{
+  font-size: 42px;
+  color: white;
+  width: 100%;
+  padding: 45px 0;
+  background-color: #FFFFFF66;
+  max-width: 470px;
+}
+
+.llamada-accion a{
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 50px;
+  background-color: #00000078;
+  margin-top: 35px;
+  transition: all 0.3s ease-in-out;
+}
+
+.llamada-accion a:hover{
+  background-color: #000000CC;
+}
+  
+header{
+  width: 100%;
+  height: 200px;
+  background-color: #BBEDBB;
+}
+  
+.logo{
+  padding: 25px 0;
+}
+  
+.logo img{
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+  
+.menu{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 430px;
+  margin: auto;
+}
+  
+.menu a{
+  text-decoration: none;
+  color: #006400;
+  font-size: 14px;
+    
+}
+  
+.menu a:hover{
+  color:#32CD32;
+}
+  
+.adm{
+  padding-bottom: 80px;
+}
+
+.adm > .contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.foto1{
+  width: 100%;
+  max-width: 570px;
+}
+
+.foto1 img{
+  width: 100%;
+}
+
+.conoceme{
+  text-align: center;
+  padding: 15px 0px;
+  max-width: 570px;
+}
+
+.conoceme b{
+  color: #137306;
+  font-size: 16px;
+}
+
+.conoceme h3{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #229C11;
+  font-size: 18px;
+}
+
+@media all and (min-width:769px){
+  .adm{
+    padding-top: 80px;
+  }
+  .foto1{
+    margin-right: 30px;
+  }
+  .conoceme{
+    padding-left: 30px;
+    text-align: left;
+  }
+}
+
+
+.top-footer{
+  background-color:#088F08;
+  height:25px;
+}
+
+.center-footer{
+  background-color: #067B06;
+}
+
+.center-footer .contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.center-footer .widget{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  color:#F0FFF0;
+  max-width: 270px;
+  margin: 0 auto;
+}
+
+.center-footer .widget h3{
+  padding-bottom: 35px;
+  font-size: 18px;
+}
+
+.center-footer .widget p{
+  font-size: 14px;
+}
+
+.bottom-footer{
+  background-color:#056105;
+  height:25px;
+}
+
+.bottom-footer p{
+  color:#F0FFF0;
+  font-size: 12px;
+  text-align: center;
+}
